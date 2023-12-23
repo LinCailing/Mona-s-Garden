@@ -1,0 +1,80 @@
+#form {
+	padding-top: 5px;
+}
+
+#form input {
+	width: 100%;
+	height: 32px;
+	float: left;
+	background: #fafaf6;
+	box-sizing: border-box;
+	/* -webkit-appearance: none;
+	-moz-box-sizing: border-box;
+
+	-webkit-box-sizing: border-box; */
+
+	color: #92928d;
+	font: 14px/18px Arial, Helvetica, sans-serif;
+	border: 1px solid #e5e5e4;
+	padding: 7px 12px 7px;
+	margin-bottom: 15px;
+}
+
+
+#form textarea {
+	width: 100%;
+	height: 130px;
+	/* position: relative; */
+	resize: none;
+	overflow: auto;
+	box-sizing: border-box;
+	float: left;
+	/* margin: 0; */
+	color: #92928d;
+	font: 14px Arial, Helvetica, sans-serif;
+	border: 1px solid #e5e5e4;
+	background: #fafaf6;
+	padding: 8px 12px 13px;
+}
+
+#form label {
+	height: 32px;
+	/* position: relative; */
+	display: block;
+	float: left;
+	clear: left;
+	width: 100%;
+}
+
+#form label.message {
+	width: 100%;
+	/* position: relative; */
+	margin-left: 0;
+}
+
+
+button{
+	width: 60px;
+	background: #fafaf6;
+	border: 1px solid #e5e5e4;
+	margin: 20px 10px 10px 10px;
+	color: #000000;
+}
+.btns {
+	text-align: right;
+	padding-top: 42px;
+	font-size: 0;
+	line-height: 0;
+	margin-bottom: 43px;
+
+}
+
+.btns a.btn {
+	margin: 0;
+	cursor: pointer;
+}
+
+.btns a.btn+a.btn {
+	margin-left: 22px;
+}
+

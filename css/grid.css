@@ -1,0 +1,94 @@
+body {
+  min-width: 960px;
+}
+
+/* `Container
+----------------------------------------------------------------------------------------------------*/
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1038px;
+}
+
+/* `Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+
+.good,
+.section,
+.sub_section,
+.overview,
+.table_section,
+.header-section {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+
+/* `Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+
+
+/* `Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container .good {
+  margin-right: 116px;
+  width: 220px;
+}
+
+.container .section {
+  width: 300px;
+  text-align: center;
+}
+
+.container .contact_section {
+  text-align: left;
+}
+
+
+.container .sub_section {
+  width: 460px;
+}
+
+
+
+.container .overview {
+  width: 600px;
+}
+
+.container .table_section {
+  width: 956px;
+}
+
+.container .header-section {
+  width: 1000px;
+}
+
+/* .container:before,
+.container:after {
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+
+.container:after {
+  clear: both;
+} */
+
+.container {
+  overflow: auto;
+}
+

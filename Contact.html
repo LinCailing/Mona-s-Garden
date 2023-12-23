@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Contacts</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/favicon.ico">
+	<link rel="shortcut icon" href="images/favicon.ico" />
+	<link rel="stylesheet" href="css/form.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+	<!-- head -->
+	<header>
+		<div class="container">
+			<div class="header-section">
+				<h1>
+					<a href="Home.html">
+						<img src="images/logo.png" alt="Your Happy Family">
+					</a>
+				</h1>
+			</div>
+		</div>
+		<!-- <div class="clear"></div> -->
+		<div class="menu">
+			<div class="container">
+				<div class="header-section">
+					<nav class="top-nav">
+						<ul class="main-menu">
+							<li><a href="Home.html">Home</a>·</li>
+							<li><a href="Cut Flowers.html">Cut Flowers</a>·</li>
+							<li><a href="Potted Flowers.html">Potted Flowers</a>·</li>
+							<li><a href="Potted Plants.html">Potted Plants</a>·</li>
+							<li><a href="Price.html">Price</a>·</li>
+							<li><a href="Subscriptions.html">Subscriptions</a>·</li>
+							<li class="current"><a href="Contact.html">Contacts</a>·</li>
+						</ul>
+					</nav>
+					<!-- <div class="clear"></div> -->
+				</div>
+				<!-- <div class="clear"></div> -->
+			</div>
+		</div>
+	</header>
+	<!-- content -->
+	<div class="content">
+		
+		<div class="container">
+			<div class="overview">
+				<h2>How to Find Us</h2>
+				<div class="info_section">
+					<div class="img_section left">
+						<img src="images/About Us.png" alt="This is Our Logo" class="img_inner">
+					</div>
+					<div class="text_section">
+						<p>Please feel free to contact us using the following methods:<br><br>
+
+							Phone: 150 5513 0706<br>
+							Email: <a href="mailto:2750905096@qq.com" class="link-1">2750905096@qq.com</a><br>
+							Address: College of Computer Science, Zhejiang Normal University<br>
+							Weibo Account: <a href="https://weibo.com/u/3089584727" class="link-1">Mona's Garden</a><br>
+							<br>
+							Our team is available to assist you and answer any questions you may have. We look forward
+							to hearing from you!
+						</p>
+
+					</div>
+
+				</div>
+			</div>
+			<div class="section">
+				<div class="contact_section">
+				<h2>Contact Form</h2>
+				<form id="form" method="post">
+					<label class="name" for="name">*Name:</label>
+					<input type="text" name="name" id="name" placeholder="your name" required="required">
+
+					<label class="email" for="email">*E-mail:</label>
+					<input type="email" name="email" placeholder="you@yourdomain.com" required="required">
+
+					<label class="phone" for="phone">*Phone:</label>
+					<input type="tel" name="phone" id="phone" placeholder="your phone" required="required">
+
+					<label class="message" for="message">*Message:</label>
+					<textarea name="message" id="message" placeholder="your message here" minlength="10"
+						maxlength="99999" required="required"></textarea>
+
+						<div class="btns">
+							<button type="submit" onclick="alert('Submit Successfully!')">Confirm</button>
+							<button type="reset" onclick="alert('Reset Successfully!')">Reset</button>
+							<!-- <input type="submit" value="Contact"> <input type="reset" value="Reset"> -->
+						</div>
+					</div>
+				</form>
+				
+			</div>
+		</div>
+	</div>
+
+	<!-- footer -->
+	<footer>
+		<div class="copyright">
+			Copyright ©2023-2028 Mona's Garden
+		</div>
+	</footer>
+</body>
+
+</html>
